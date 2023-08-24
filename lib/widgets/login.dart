@@ -12,6 +12,7 @@ class LoginPage extends StatelessWidget {
         padding: const EdgeInsets.all(8.0),
         child: Column(
           children: [
+
             TextField(decoration: InputDecoration(hintText: "Enter email"),
                 keyboardType: TextInputType.emailAddress),
             TextField(decoration: InputDecoration(hintText: "Enter password" ), obscureText: true,),
